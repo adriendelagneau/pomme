@@ -13,9 +13,16 @@ function Landing() {
     <section className="min-h-screen mx-auto flex flex-col items-center py-20 lg:flex-row lg:pt-5 xl:pt-10">
       <div className="lg:flex-1 lg:text-center ">
         <h1 className="space-y-3  font-semibold tracking-wide ">
-          <span className="text-6xl sm:text-7xl xl:text-9xl block bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent ">
-            Powered
-          </span>
+          
+          <div className="text-6xl sm:text-7xl xl:text-9xl  flex justify-center  ">
+          <div className=" animate-wave bg-[#ec4899] bg-clip-text text-transparent">P</div>
+            <div className=" animate-wave2 bg-[#e34aa1] bg-clip-text text-transparent">o</div>
+            <div className=" animate-wave3 bg-[#da4ca9] bg-clip-text text-transparent">w</div>
+            <div className=" animate-wave4 bg-[#d14eb1] bg-clip-text text-transparent">e</div>
+            <div className="animate-wave5 bg-[#c750ba] bg-clip-text text-transparent">r</div>
+            <div className="animate-wave6 bg-[#bd52c4] bg-clip-text text-transparent">e</div>
+            <div className="animate-wave7 bg-[#a30e9a] bg-clip-text text-transparent">d</div>
+          </div>
           <span className="block text-4xl sm:text-5xl xl:text-7xl xl:py-12">By Intellect</span>
           <span className="lg:pb-10 xl:pb-14 block text-3xl sm:text-4xl xl:text-6xl ">Driven By Values</span>
         </h1>
