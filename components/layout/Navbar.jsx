@@ -29,20 +29,14 @@ function Navbar() {
                 </ul>
             </div>
 
-            <div className=" flex-1 relative">
-               <div className='flex flex-col-reverse absolute -top-4 right-0 lg:flex-row lg:space-x-1'>
+            <div className=" flex-1 relative -top-3 lg:-top-3">
+               <div className='flex flex-col-reverse absolute -top-1 right-0 lg:flex-row lg:space-x-1'>
                 <input placeholder='Search...' className={`lg:relative lg:-left-1 absolute left-[-165px]  w-[150px] border border-black border-1 rounded-full px-2 py-[2px] sm:w-[200px] sm:left-[-210px] transition ${showInput ? 'scale-x-1' : 'scale-x-0'}`}/>
-                    <SearchIcon className="headerIcon"  onClick={() =>  setShowInput(!showInput)} />
-                    <Link href="/checkout">
-                    <div className="relative cursor-pointer py-3 lg:py-0">
-                        <span className="absolute -right-1 top-2 lg:top-0 z-50 flex h-5 w-5 items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 text-[10px] text-sm text-white">
-                            2
-                        </span>
-                        <ShoppingBagIcon className="headerIcon" />
-                    </div>
-                    </Link>
-                    <Link href={"/login"}>
-                        <UserIcon className="headerIcon" />
+                <SearchIcon className="headerIcon mt-4 lg:-mt-1"  onClick={() =>  setShowInput(!showInput)} />
+                  
+                    
+                    <Link href={"/login"} className="">
+                        <UserIcon className="headerIcon lg:-mt-1" />
                     </Link>      
                 </div>
             </div>
