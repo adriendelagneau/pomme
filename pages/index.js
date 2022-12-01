@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Landing from '../components/Landing'
+import Landing2 from '../components/Landing2'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <div className='max-w-7xl mx-auto'>
-
+<Landing2 />
    <Landing />
 </div>
     </div>
