@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Landing from '../components/Landing'
 import Landing2 from '../components/Landing2'
-import Landing3 from '../components/Landing3'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
 <div className='max-w-7xl mx-auto'>
 <Landing2 />
    <Landing />
-   <Landing3 />
+   
 </div>
     </div>
   )
