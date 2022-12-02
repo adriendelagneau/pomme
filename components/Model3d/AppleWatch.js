@@ -9,7 +9,7 @@ function AppleWatch() {
   return (
     <>
       {/* Use scale to control the size of the 3D model */}
-      <primitive object={gltf.scene} scale={9} />
+      <primitive object={gltf.scene} scale={9} rotation={[13,0,0]}/>
     </>
   );
 }
